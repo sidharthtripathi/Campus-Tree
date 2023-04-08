@@ -1245,7 +1245,7 @@ let members=[];
 //  members.push(cookies_user_id) 
    
 //     isgroup=1;
-//     const request=await fetch("https://campus-tree.onrender.com/startcommunity",{
+//     const request=await fetch("https://campus-tree-7ozh.onrender.com/startcommunity",{
 //         method:"POST",
 //         headers:{
 //           "Content-Type":"application/json",
@@ -1345,7 +1345,7 @@ isgroup=1;
 let group_name=community_input.value;
       
    
-        const request=await fetch("https://campus-tree.onrender.com/creategroup",{
+        const request=await fetch("https://campus-tree-7ozh.onrender.com/creategroup",{
             method:"POST",
             headers:{
               "Content-Type":"application/json",
@@ -1444,7 +1444,7 @@ let new_element=document.createElement("div");
         
 
        
-        const request=await fetch("https://campus-tree.onrender.com/creategroup",{
+        const request=await fetch("https://campus-tree-7ozh.onrender.com/creategroup",{
             method:"POST",
             headers:{
               "Content-Type":"application/json",
@@ -1513,7 +1513,7 @@ group_id = group_id.toString().replace(".","_");
     
 
    
-    const request=await fetch("https://campus-tree.onrender.com/creategroup",{
+    const request=await fetch("https://campus-tree-7ozh.onrender.com/creategroup",{
         method:"POST",
         headers:{
           "Content-Type":"application/json",
@@ -1592,7 +1592,7 @@ if(members.length==1){
 //         content.style="display:none"
 //         creategroup.style.display="none"
 //     groupname.style.display="none"
-//         const request=await fetch("https://campus-tree.onrender.com/creategroup",{
+//         const request=await fetch("https://campus-tree-7ozh.onrender.com/creategroup",{
 //             method:"POST",
 //             headers:{
 //               "Content-Type":"application/json",
@@ -1665,7 +1665,7 @@ if(members.length==1){
 //     isgroup=0;
 //     members.push(cookies_user_id) 
       
-//        const request=await fetch("https://campus-tree.onrender.com/startcommunity",{
+//        const request=await fetch("https://campus-tree-7ozh.onrender.com/startcommunity",{
 //            method:"POST",
 //            headers:{
 //              "Content-Type":"application/json",
@@ -1770,7 +1770,7 @@ messageArea.innerHTML="";
    gptype=title;
    Specific_chat_id=id;
 Specific_chat_name=name;
-   const request=await fetch("https://campus-tree.onrender.com/printchats",{
+   const request=await fetch("https://campus-tree-7ozh.onrender.com/printchats",{
            method:"POST",
            headers:{
              "Content-Type":"application/json",
@@ -1918,7 +1918,7 @@ window.onload=(async()=>{
 //fetch'
 let x=" ";
 const request= await
-fetch("https://campus-tree.onrender.com/all_chats_details",{
+fetch("https://campus-tree-7ozh.onrender.com/all_chats_details",{
     method:"POST",
      headers:{
         "Content-Type":"application/json",
@@ -2111,7 +2111,7 @@ function myFunction(x) {
     group_input_div.style.display="none";
     main_row.style.display="none";
 
-    const response = await fetch("https://campus-tree.onrender.com/other_profile", {      //localhost:3000
+    const response = await fetch("https://campus-tree-7ozh.onrender.com/other_profile", {      //localhost:3000
       method: 'POST', // *GET, POST, PUT, DELETE, etc.
        headers: {
         'Content-Type': 'application/json'
@@ -2185,7 +2185,7 @@ profile.innerHTML+=`
     profile.style.display="flex"
     main_row.style.display="none"
   
-    const request = await fetch("https://campus-tree.onrender.com/other_profile", {      //localhost:3000
+    const request = await fetch("https://campus-tree-7ozh.onrender.com/other_profile", {      //localhost:3000
       method: 'POST', // *GET, POST, PUT, DELETE, etc.
        headers: {
         'Content-Type': 'application/json'
